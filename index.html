@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
   </head>
-  <body>
+	<body>
     <header class="main-header">
 		<div class="top-header">
 			<div class="container">
@@ -20,10 +20,17 @@
 		<div class="bottom-header">
 			<div class="container">
 				<div class="info">
-					<p><h1 class="visuallyhidden">Интернет-магазин<br>строительных материалов<br> и инструментов для ремонта</h1></p>
+					<h1 class="visuallyhidden">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
+					<p>
+						Интернет-магазин<br>
+						строительных материалов<br>
+						и инструментов для ремонта
+					</p>
 					<p>
 						<b>+7 (812) 555-05-55</b>
-						<address>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
+						<address>
+							г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+						</address>
 					</p>
 					<ul classass="user-navigation">
 						<li class="login-link">Вход</li>
@@ -44,8 +51,9 @@
 			</div>
 		</div>
 	</header>
-	<main class="container">
+	<main class="main-page">
 		<h1 class="visuallyhidden"> Техномарт - Интернет-магазин строительных материалов и инструментов для ремонта</h1>
+			<div class="container">
 			<section class="promo">
 				<h2 class="visuallyhidden">Основные разделы</h2>
 					<ul class="promo-list">
@@ -88,8 +96,8 @@
 					<h2 class="popular-title">Популярные товары:</h2>
 					<p><a class="popular-botton" href="popular-goods.html">все популярные товары</a></p>
 				</header>
-				<ul class="popular-goods-list">
-					<li class="popular-goods-item">
+				<ul class="goods-list">
+					<li class="goods-item">
 						<h3>
 							<a href="catalog-item.html">
 									<span>Перфоратор BOSCH</span>
@@ -104,7 +112,7 @@
 						<p>32500 Р.</p>
 						<p><a class="button" href="#">25500 Р.</a></p>
 					</li>
-					<li class="popular-goods-item">
+					<li class="goods-item">
 						<h3>
 							<a href="catalog-item.html">
 									<span>Перфоратор BOSCH</span>
@@ -119,7 +127,7 @@
 						<p>22500 Р.</p>
 						<p><a class="button" href="#">15500 Р.</a></p>
 					</li>
-					<li class="popular-goods-item">
+					<li class="goods-item">
 						<h3>
 							<a href="catalog-item.html">
 									<span>Перфоратор BOSCH</span>
@@ -134,7 +142,7 @@
 						<p>30500 Р.</p>
 						<p><a class="button" href="#">25500 Р.</a></p>
 					</li>
-					<li class="popular-goods-item">
+					<li class="goods-item">
 						<h3>
 							<a href="catalog-item.html">
 									<span>Перфоратор BOSCH</span>
@@ -280,7 +288,7 @@
 			</section>
 			<section class="info">
 				<h2 class="info-title">КОМПАНИЯ «Техномарт»</h2>
-					<div>
+					<div><!--не уверен нужен ли тут див, скорее всего нет..??-->
 						<p>
 							Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и<br> 
 							строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.
@@ -305,7 +313,7 @@
 			</section>
 			<section class="contact">
 				<h2 class="contact-title">КОНТАКТЫ</h2>
-					<div>
+					<div><!--не уверен нужен ли тут див, скорее всего нет..??-->
 						<p>
 							Вы можете забрать товар сами,<br> 
 							заехав в наш офис:
@@ -314,10 +322,19 @@
 							<!--Здесь будет карта--> 
 						</p>
 						<p>
-							<!--Здесь будет обратной связи--> 
+							<!--Здесь будет форма обратной связи-->
+						<section class="modal modal-login">
+							<h2>Обратная связь</h2>
+							<p>Ваше имя</p>
+							<p>Ваш e-mail:</p>
+							<p>Текст письма:</p>
+							<p><a class="button" href="#">ОТПРАВИТЬ</a></p>
+							<span class="modal-close">X</span>
+						</section>	
 						</p>
 					</div>
 			</section>
+			</div>
 		</main>
 		<footer class="main-footer">
 			<div class="footer-top">
@@ -329,7 +346,7 @@
 							<b>+7 (812) 555-05-55</b>
 						</p>
 					</div>
-					<nav class="main-navigation">
+					<nav class="footer-navigation">
 						<ul class="site-navigation">
 							<li><a href="company.html" title="О нас">Компания</a></li>
 							<li><a href="news.html" title="Новости">Новости</a></li>
@@ -372,5 +389,5 @@
 				</div>
 			</div>	
 		</footer>
-  </body>
+	</body>
 </html>
