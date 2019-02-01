@@ -1,6 +1,10 @@
 
 div.container {
-	margin: 0 auto;
+	margin: 0 200;
+	
+}
+.visuallyhidden {
+	display: none;
 	
 }
 .top-header {
